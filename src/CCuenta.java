@@ -1,3 +1,7 @@
+/**
+ * Clase CCuenta para gestionar una cuenta bancaria
+ * @author Maria
+ */
 public class CCuenta {
 
     /**
