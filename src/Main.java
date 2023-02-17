@@ -4,13 +4,13 @@ public class Main {
         CCuenta cuenta1;
         double saldoActual;
         float cantidad = 0;
-        operativa_cuenta(cantidad);
+        operativa_cuenta(cantidad, "Antonio L\u00f3pez", "1000-2365-85-1230456789");
     }
 
-    private static void operativa_cuenta(float cantidad) {
+    private static void operativa_cuenta(float cantidad, String nombre, String ncuenta) {
         CCuenta cuenta1;
         double saldoActual;
-        cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+        cuenta1 = new CCuenta(nombre,ncuenta,2500,0);
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
         try {
